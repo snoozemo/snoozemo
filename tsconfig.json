@@ -1,8 +1,10 @@
 {
   // https://nuxt.com/docs/guide/concepts/typescript
-  "paths": {
-    "@/*": ["./src/*"],
-    "~/*": ["./*"]
+  "compilerOptions": {
+    "paths": {
+      "@/*": ["./src/*"],
+      "~/*": ["./*"]
+    }
   },
   "extends": "./.nuxt/tsconfig.json"
 }
