@@ -1,0 +1,9 @@
+@font-face {
+  font-family: pixel-font;
+  src: url("/fonts/PerfectDOSVGA437.ttf") format("truetype");
+}
+.p5-text {
+  color: #fff;
+  font-weight: 600;
+  -webkit-text-stroke: 1px #000;
+}
